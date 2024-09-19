@@ -6,16 +6,9 @@ def funcao_processamento() :
     
     ####
     
-    if( h_extra  >  h_faltou +  0.5 *  h_faltou ) :
-        
-        print("Com bonus")
-        
-    else:
-        
-        print("Sem bonus")
-        
-
-
+    print("Com bônus"  if  (h_extra > h_faltou + 0.5 * h_faltou ) else "Sem Bonus")
+    
+    
 ######################################
 
 

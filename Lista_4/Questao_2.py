@@ -1,16 +1,28 @@
-print("Digite um numero")
+def funcao_processamento() :
 
-numero = int( input( "Qual o numero : \t"))
-######
+    print("Digite um numero")
 
-if( numero > 50 ) :
+    numero = int( input( "Qual o numero : \t"))
+    ######
+
+    if( numero > 50 ) :
+        
+        print( "E maior que 50 ")
+        
+    elif ( numero < 50 ) :
+        
+        print("E menor que 50")
+        
+    else :
+        
+        print("E igual")
+        
+###################################################
+
+if __name__ == "__main__" :
     
-    print( "E maior que 50 ")
+    print("---------Inicio do Programa----------\n")
     
-elif ( numero < 50 ) :
+    funcao_processamento()
     
-    print("E menor que 50")
-    
-else :
-    
-    print("E igual")
+    print("---------Fim do Programa----------\n")

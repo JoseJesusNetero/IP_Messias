@@ -1,11 +1,24 @@
-sua_velocidade = int( input( "Digite agora mesmo a sua velocidade atual "))
+def funcao_processamento() :
+    
 
-if( sua_velocidade <= 80 ):
+    sua_velocidade = int( input( "Digite agora mesmo a sua velocidade atual "))
+
+    if( sua_velocidade <= 80 ):
+        
+        print( "Muito bem, continue assim ")
+        
+    else :
+        
+        valor = sua_velocidade - 80 
+        
+        print( f"Voce vai pagar { 5 * valor }")
+        
+##################################################
+
+if __name__ == "__main__" :
     
-    print( "Muito bem, continue assim ")
+    print("---------Inicio do Programa----------\n")
     
-else :
+    funcao_processamento()
     
-    valor = sua_velocidade - 80 
-    
-    print( f"Voce vai pagar { 5 * valor }")
+    print("---------Fim do Programa----------\n")

@@ -1,17 +1,30 @@
-print("Digite um numero \n")
-
-numero_1 = int( input ("\n"))
-
-print("Digite outro numero \n")
-
-numero_2 = int( input ("\n"))
-
-if( numero_1 > numero_2 ) :
+def funcao_processamento() :
     
-    print("Maior e o primeiro")
+
+    print("Digite um numero \n")
+
+    numero_1 = int( input ("\n"))
+
+    print("Digite outro numero \n")
+
+    numero_2 = int( input ("\n"))
+
+    if( numero_1 > numero_2 ) :
+        
+        print("Maior e o primeiro")
+        
+        
+    else :
+        
+        print("Maior e o segundo")
+        
+##########################################
+
+if __name__ == "__main__" :
     
+    print("---------Inicio do Programa----------\n")
     
-else :
+    funcao_processamento()
     
-    print("Maior e o segundo")
+    print("---------Fim do Programa----------\n")
 

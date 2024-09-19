@@ -1,9 +1,22 @@
-sua_idade = int( input("Digite sua idade "))
+def funcao_processamento() :
+    
 
-if( sua_idade >= 12 and sua_idade <= 60  ) :
+    sua_idade = int( input("Digite sua idade "))
+
+    if( sua_idade >= 12 and sua_idade <= 60  ) :
+        
+        print("Seu preco e 25 reais")
+        
+    else :
+        
+        print("Seu preco e 15 reais")    
+        
+#########################################################
+
+if __name__ == "__main__" :
     
-    print("Seu preco e 25 reais")
+    print("---------Inicio do Programa----------\n")
     
-else :
+    funcao_processamento()
     
-    print("SEu preco e 15 reais")    
+    print("---------Fim do Programa----------\n")

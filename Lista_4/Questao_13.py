@@ -1,19 +1,32 @@
-print("Informe o seu candidato \n")
+def funcao_processamento() :
+    
 
-opcao = int( input( "Digite o seu candidato"))
+    print("Informe o seu candidato \n")
 
-if( opcao == 1 ) :
+    opcao = int( input( "Digite o seu candidato"))
+
+    if( opcao == 1 ) :
+        
+        print("Seu canditato e o numero 1")
+        
+    elif( opcao == 2 ) :
+        
+        print("Seu candidato e o numero 2")
+        
+    elif( opcao == 3 ) :
+        
+        print("Seu candidato e o numero 3")
+        
+    else :
+        
+        print("Seu candidato e nenhum")
+        
+#######################################################
+
+if __name__ == "__main__" :
     
-    print("Seu canditato e o numero 1")
+    print("---------Inicio do Programa----------\n")
     
-elif( opcao == 2 ) :
+    funcao_processamento()
     
-    print("Seu candidato e o numero 2")
-    
-elif( opcao == 3 ) :
-    
-    print("Seu candidato e o numero 3")
-    
-else :
-    
-    print("Seu candidato e nenhum")
+    print("---------Fim do Programa----------\n")

@@ -1,9 +1,22 @@
-senha = input( "Digite a senha")
+def funcao_processamento() :
+    
 
-if( senha == "Python123") :
+    senha = input( "Digite a senha")
+
+    if( senha == "Python123") :
+        
+        print("Acesso concedido")
+        
+    else:
+        
+        print("Acesso negado")
+        
+########################################################
+
+if __name__ == "__main__" :
     
-    print("Acesso concedido")
+    print("---------Inicio do Programa----------\n")
     
-else:
+    funcao_processamento()
     
-    print("Acesso negado")
+    print("---------Fim do Programa----------\n")

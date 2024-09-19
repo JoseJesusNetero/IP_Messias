@@ -1,13 +1,26 @@
-temperatura = int( input( "Digite a temperatura atual"))
+def funcao_processamento() :
+    
 
-if( temperatura <= 15) :
+    temperatura = int( input( "Digite a temperatura atual"))
+
+    if( temperatura <= 15) :
+        
+        print("esta frio \n")
+        
+    elif ( temperatura <= 25) :
+        
+        print("esta amenos")
+        
+    else :
+        
+        print("Esta muito quente") 
+        
+###################################################
+
+if __name__ == "__main__" :
     
-    print("esta frio \n")
+    print("---------Inicio do Programa----------\n")
     
-elif ( temperatura <= 25) :
+    funcao_processamento()
     
-    print("esta amenos")
-    
-else :
-    
-    print("Esta muito quente") 
+    print("---------Fim do Programa----------\n")
